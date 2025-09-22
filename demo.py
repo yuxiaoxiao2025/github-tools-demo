@@ -4,6 +4,7 @@
 \"\"\"
 GitHub Tools Demo Script
 This script demonstrates basic Python functionality.
+Updated on feature branch.
 \"\"\"
 
 def greet(name):
@@ -31,7 +32,21 @@ def add_numbers(a, b):
     \"\"\"
     return a + b
 
+def multiply_numbers(a, b):
+    \"\"\"
+    Multiply two numbers together.
+    
+    Args:
+        a (int or float): The first number.
+        b (int or float): The second number.
+        
+    Returns:
+        int or float: The product of a and b.
+    \"\"\"
+    return a * b
+
 if __name__ == \"__main__\":
     # Demo the functions
     print(greet(\"User\"))
     print(f\"5 + 3 = {add_numbers(5, 3)}\")
+    print(f\"5 * 3 = {multiply_numbers(5, 3)}\")
